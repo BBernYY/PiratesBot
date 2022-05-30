@@ -39,4 +39,4 @@ async def help(ctx, command=None):
 
 
 # connect token
-bot.run()
+bot.run(os.environ('BOT_TOKEN'))
